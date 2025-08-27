@@ -16,7 +16,7 @@
 
 ### 核心技术栈
 - **Java生态系统**: 深入理解Java核心概念、多线程、JVM性能调优
-- **Spring框架**: 精通Spring Boot、Spring MVC、Spring Data JPA
+- **Spring框架**: 熟悉Spring Boot、Spring MVC、Spring Data JPA
 - **API开发**: RESTful API设计、微服务架构
 - **性能工程**: 负载测试、压力测试、系统性能分析与优化
 - **Python开发**: Flask框架、脚本编写、自动化工具开发
