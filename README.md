@@ -1,202 +1,58 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>动漫推荐收藏</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-            color: #e6e6e6;
-            line-height: 1.6;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        header {
-            text-align: center;
-            padding: 40px 0;
-            margin-bottom: 40px;
-        }
-        
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            background: linear-gradient(90deg, #ff6b6b, #ffa36c, #ffde7d);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        
-        .anime-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 30px;
-            margin-bottom: 50px;
-        }
-        
-        .anime-card {
-            background: rgba(30, 30, 46, 0.8);
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease;
-        }
-        
-        .anime-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .anime-image {
-            width: 100%;
-            height: 320px;
-            background: #2d3748;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #a0aec0;
-            font-size: 1.2rem;
-        }
-        
-        .anime-info {
-            padding: 20px;
-        }
-        
-        .anime-title {
-            font-size: 1.2rem;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #ffde7d;
-        }
-        
-        .anime-desc {
-            font-size: 0.9rem;
-            color: #b8b8b8;
-            margin-bottom: 15px;
-        }
-        
-        .anime-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 5px;
-        }
-        
-        .tag {
-            background: rgba(106, 152, 240, 0.2);
-            color: #6a98f0;
-            padding: 3px 8px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 30px 0;
-            margin-top: 50px;
-            color: #888;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>动漫推荐收藏</h1>
-            <p>精心挑选的优质动漫作品</p>
-        </header>
-        
-        <div class="anime-grid">
-            <div class="anime-card">
-                <div class="anime-image">葬送的芙莉莲</div>
-                <div class="anime-info">
-                    <div class="anime-title">葬送的芙莉莲</div>
-                    <div class="anime-desc">精灵魔法使芙莉莲在漫长岁月中重新认识人类情感的故事</div>
-                    <div class="anime-tags">
-                        <span class="tag">奇幻</span>
-                        <span class="tag">治愈</span>
-                        <span class="tag">2023</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="anime-card">
-                <div class="anime-image">咒术回战 第二季</div>
-                <div class="anime-info">
-                    <div class="anime-title">咒术回战 第二季</div>
-                    <div class="anime-desc">怀玉・玉折篇与涩谷事变篇，五条悟的过去与大规模咒灵袭击</div>
-                    <div class="anime-tags">
-                        <span class="tag">战斗</span>
-                        <span class="tag">黑暗奇幻</span>
-                        <span class="tag">2023</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="anime-card">
-                <div class="anime-image">药屋少女的呢喃</div>
-                <div class="anime-info">
-                    <div class="anime-title">药屋少女的呢喃</div>
-                    <div class="anime-desc">精通药理的少女猫猫在古代宫廷中解决各种疑难事件</div>
-                    <div class="anime-tags">
-                        <span class="tag">历史</span>
-                        <span class="tag">推理</span>
-                        <span class="tag">2023</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="anime-card">
-                <div class="anime-image">我推的孩子</div>
-                <div class="anime-info">
-                    <div class="anime-title">我推的孩子</div>
-                    <div class="anime-desc">医生转生成偶像的儿子，在演艺圈寻找母亲死亡真相</div>
-                    <div class="anime-tags">
-                        <span class="tag">偶像</span>
-                        <span class="tag">悬疑</span>
-                        <span class="tag">2023</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="anime-card">
-                <div class="anime-image">钢之炼金术师FA</div>
-                <div class="anime-info">
-                    <div class="anime-title">钢之炼金术师FA</div>
-                    <div class="anime-desc">爱德华和阿尔冯斯兄弟为找回身体而寻找贤者之石的冒险</div>
-                    <div class="anime-tags">
-                        <span class="tag">冒险</span>
-                        <span class="tag">热血</span>
-                        <span class="tag">2009</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="anime-card">
-                <div class="anime-image">命运石之门</div>
-                <div class="anime-info">
-                    <div class="anime-title">命运石之门</div>
-                    <div class="anime-desc">年轻人发明时间机器，引发世界线变动和悲剧</div>
-                    <div class="anime-tags">
-                        <span class="tag">科幻</span>
-                        <span class="tag">悬疑</span>
-                        <span class="tag">2011</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <footer>
-            <p>个人动漫收藏推荐 • 仅用于分享交流</p>
-        </footer>
-    </div>
-</body>
-</html>
+<div align="center">
+
+# 🎬 动漫推荐收藏
+
+> 个人精选 · 品质保证
+
+![Anime Banner](https://via.placeholder.com/1200x300/0f3460/ffffff?text=Anime+Recommendations)
+
+</div>
+
+## 🌟 近期热门
+
+| 作品 | 类型 | 评分 | 简介 |
+|------|------|------|------|
+| **葬送的芙莉莲** | 奇幻、治愈 | ⭐⭐⭐⭐⭐ | 精灵魔法使在漫长岁月中重新认识人类情感 |
+| **咒术回战 第二季** | 战斗、黑暗奇幻 | ⭐⭐⭐⭐⭐ | 五条悟的过去与涩谷大规模咒灵袭击 |
+| **药屋少女的呢喃** | 历史、推理 | ⭐⭐⭐⭐☆ | 精通药理少女解决宫廷疑难事件 |
+| **我推的孩子** | 偶像、悬疑 | ⭐⭐⭐⭐☆ | 转生为偶像之子寻找母亲死亡真相 |
+
+## 🏆 经典神作
+
+| 作品 | 类型 | 评分 | 简介 |
+|------|------|------|------|
+| **钢之炼金术师FA** | 冒险、热血 | ⭐⭐⭐⭐⭐ | 兄弟寻找贤者之石的零差评神作 |
+| **命运石之门** | 科幻、悬疑 | ⭐⭐⭐⭐⭐ | 时间旅行题材的巅峰之作 |
+| **CLANNAD** | 治愈、恋爱 | ⭐⭐⭐⭐⭐ | 催泪治愈经典，情感细腻 |
+| **进击的巨人** | 黑暗奇幻、战斗 | ⭐⭐⭐⭐⭐ | 人类与巨人斗争的史诗故事 |
+
+## 💎 冷门佳作
+
+| 作品 | 类型 | 评分 | 简介 |
+|------|------|------|------|
+| **奇诺之旅** | 哲理、旅行 | ⭐⭐⭐⭐☆ | 周游列国见证奇特国度的单元剧 |
+| **昭和元禄落语心中** | 艺术、历史 | ⭐⭐⭐⭐☆ | 展现日本传统落语艺术的魅力 |
+| **三月的狮子** | 将棋、治愈 | ⭐⭐⭐⭐☆ | 职业棋手与三姐妹的温暖故事 |
+| **编舟记** | 职场、文学 | ⭐⭐⭐⭐☆ | 为编纂辞典付出毕生心血的故事 |
+
+## 📺 观看平台推荐
+
+### 正版平台
+- **Bilibili** - 国内正版番剧
+- **Crunchyroll** - 海外主流平台
+- **Netflix** - 部分独家动漫
+
+### 工具推荐
+- **弹弹Play** - 弹幕播放器
+- **Tachiyomi** - 漫画聚合阅读
+- **MyAnimeList** - 追番管理
+
+---
+
+<div align="center">
+
+**分享优质内容 · 传播优秀作品**
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Geminiash.Geminiash" alt="访客统计" />
+
+</div>
