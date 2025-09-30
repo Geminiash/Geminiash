@@ -12,8 +12,8 @@
 ![](https://img.shields.io/badge/性格-开朗-red) 
 ![](https://img.shields.io/badge/爱好-二次元-red)
 
-</div>
+<img src="image/4d7de1a225e39519b40ec3c908d22ca5.jpg" alt="头像" width="200" height="200" style="border-radius: 50%; object-fit: cover; margin: 20px auto; display: block;">
 
-![头像](image/4d7de1a225e39519b40ec3c908d22ca5.jpg)
+</div>
 
 ![Visitor Count](https://profile-counter.glitch.me/Geminiash/count.svg)
