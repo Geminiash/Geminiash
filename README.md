@@ -2,17 +2,19 @@
 
 ![Geminiash's Profile](https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=Geminiash)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Geminiash&show_icons=true&theme=tokyonight)](https://github.com/Geminiash)
+<img src="image/4d7de1a225e39519b40ec3c908d22ca5.jpg" alt="横幅图片" style="width:100%; max-height:400px; object-fit: cover; border-radius: 10px; margin: 20px 0;">
 
-[![知乎](https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-Geminiash-yello)](https://www.zhihu.com/people/o4ze4r)
-[![youtube](https://img.shields.io/badge/video-YouTube-red)](https://www.youtube.com/channel/UCey35Do4RGewqr-6EiaCJrg)
+<div style="font-family: '楷体', 'STKaiti', serif; font-size: 4rem; font-weight: bold; color: #d40000; text-shadow: 3px 3px 5px rgba(0,0,0,0.3); margin: 30px 0;">
+  中国万岁！
+</div>
 
-[![modern cpp](https://img.shields.io/badge/code-Modern%20C++-blue)](https://learn.microsoft.com/zh-cn/cpp/cpp/welcome-back-to-cpp-modern-cpp) 
-![](https://img.shields.io/badge/讨厌-学习-yellow) 
-![](https://img.shields.io/badge/性格-开朗-red) 
-![](https://img.shields.io/badge/爱好-二次元-red)
+<div style="font-family: '楷体', 'STKaiti', serif; font-size: 2rem; color: #d40000; font-weight: bold; margin: 20px 0;">
+  庆祝中华人民共和国成立74周年
+</div>
 
-<img src="image/4d7de1a225e39519b40ec3c908d22ca5.jpg" alt="头像" width="200" height="200" style="border-radius: 50%; object-fit: cover; margin: 20px auto; display: block;">
+<div style="font-family: '楷体', 'STKaiti', serif; font-size: 1.5rem; color: #333; margin: 15px 0;">
+  繁荣昌盛 · 国泰民安
+</div>
 
 </div>
 
