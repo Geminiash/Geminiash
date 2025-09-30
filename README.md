@@ -14,7 +14,7 @@
 
 </div>
 
-![头像](image/image/4d7de1a225e39519b40ec3c908d22ca5.jpg)
+![头像](image/4d7de1a225e39519b40ec3c908d22ca5.jpg)
 
 ![Visitor Count](https://profile-counter.glitch.me/Mq-b/count.svg)
 
