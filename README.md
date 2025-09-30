@@ -7,4 +7,4 @@
 
 </div>
 
-![Visitor Count](https://profile-counter.glitch.me/Geminiash/count.svg)
+
